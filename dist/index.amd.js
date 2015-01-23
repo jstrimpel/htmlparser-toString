@@ -42,13 +42,13 @@ define(function () {
         }
     }
 
-    function htmlTreeToString(item, parent, eachFn) {
+    return function nodeListToHtmlString(item, parent, eachFn) {
         // apply recursively to arrays
         if (Array.isArray(item)) {
             return item.map(function(subitem) {
             // parent, not item: the parent of an array item is not the array,
             // but rather the element that contained the array
-                return html(subitem, parent, eachFn);
+                return nodeListToHtmlString(subitem, parent, eachFn);
             }).join('');
         }
 
@@ -80,7 +80,7 @@ define(function () {
                         if (!orig.render) {
                             orig = parent;
                         }
-                        result += '>' + html(item.children, orig, eachFn) + (emptyTags[item.name] ? '' : '</' + item.name + '>');
+                        result += '>' + nodeListToHtmlString(item.children, orig, eachFn) + (emptyTags[item.name] ? '' : '</' + item.name + '>');
                     } else {
                         if(emptyTags[item.name]) {
                             result += '>';
@@ -95,5 +95,5 @@ define(function () {
         }
 
         return item;
-    }
+    };
 });
