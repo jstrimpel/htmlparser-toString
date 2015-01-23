@@ -42,7 +42,7 @@ define(function () {
         }
     }
 
-    function htmlTreeToString(item, parent, eachFn) {
+    return function htmlTreeToString(item, parent, eachFn) {
         // apply recursively to arrays
         if (Array.isArray(item)) {
             return item.map(function(subitem) {
@@ -95,5 +95,5 @@ define(function () {
         }
 
         return item;
-    }
+    };
 });
