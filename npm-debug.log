@@ -1,0 +1,126 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.4
+3 info using node@v0.10.5
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/jstrimp/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/tmp.tgz
+12 verbose folder .
+13 info prepublish htmlparser-toString@0.0.1
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/jstrimp/.npm/1f1177db-tar.lock
+16 silly lockFile 5af0118c-1180-0-28304274659603834-tmp-tgz tar:///var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/tmp.tgz
+17 verbose lock tar:///var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/tmp.tgz /Users/jstrimp/.npm/5af0118c-1180-0-28304274659603834-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 5af0118c-1180-0-28304274659603834-tmp-tgz tar:///var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/tmp.tgz
+21 silly lockFile 5af0118c-1180-0-28304274659603834-tmp-tgz tar:///var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/tmp.tgz
+22 verbose tar unpack /var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/tmp.tgz
+23 silly lockFile a82abd3a-1180-0-28304274659603834-package tar:///var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/package
+24 verbose lock tar:///var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/package /Users/jstrimp/.npm/a82abd3a-1180-0-28304274659603834-package.lock
+25 silly lockFile 5af0118c-1180-0-28304274659603834-tmp-tgz tar:///var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/tmp.tgz
+26 verbose lock tar:///var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/tmp.tgz /Users/jstrimp/.npm/5af0118c-1180-0-28304274659603834-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry LICENSE-MIT
+30 silly gunzTarPerm extractEntry dist/index.amd.js
+31 silly gunzTarPerm extractEntry readme.md
+32 silly gunzTarPerm extractEntry src/index.js
+33 silly lockFile a82abd3a-1180-0-28304274659603834-package tar:///var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/package
+34 silly lockFile a82abd3a-1180-0-28304274659603834-package tar:///var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/package
+35 silly lockFile 5af0118c-1180-0-28304274659603834-tmp-tgz tar:///var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/tmp.tgz
+36 silly lockFile 5af0118c-1180-0-28304274659603834-tmp-tgz tar:///var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/tmp.tgz
+37 verbose tar pack [ '/Users/jstrimp/.npm/htmlparser-toString/0.0.1/package.tgz',
+37 verbose tar pack   '/var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/package' ]
+38 verbose tarball /Users/jstrimp/.npm/htmlparser-toString/0.0.1/package.tgz
+39 verbose folder /var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/package
+40 silly lockFile a82abd3a-1180-0-28304274659603834-package tar:///var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/package
+41 verbose lock tar:///var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/package /Users/jstrimp/.npm/a82abd3a-1180-0-28304274659603834-package.lock
+42 silly lockFile 9a260db1-arser-toString-0-0-1-package-tgz tar:///Users/jstrimp/.npm/htmlparser-toString/0.0.1/package.tgz
+43 verbose lock tar:///Users/jstrimp/.npm/htmlparser-toString/0.0.1/package.tgz /Users/jstrimp/.npm/9a260db1-arser-toString-0-0-1-package-tgz.lock
+44 silly lockFile a82abd3a-1180-0-28304274659603834-package tar:///var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/package
+45 silly lockFile a82abd3a-1180-0-28304274659603834-package tar:///var/folders/ry/y8q3y_hx67gfb3ntq6jy3vyn3vs2wg/T/npm-21143-7z_XT-VY/1422043701180-0.28304274659603834/package
+46 silly lockFile 9a260db1-arser-toString-0-0-1-package-tgz tar:///Users/jstrimp/.npm/htmlparser-toString/0.0.1/package.tgz
+47 silly lockFile 9a260db1-arser-toString-0-0-1-package-tgz tar:///Users/jstrimp/.npm/htmlparser-toString/0.0.1/package.tgz
+48 silly lockFile 6b6dbc72-tmlparser-toString-0-0-1-package /Users/jstrimp/.npm/htmlparser-toString/0.0.1/package
+49 verbose lock /Users/jstrimp/.npm/htmlparser-toString/0.0.1/package /Users/jstrimp/.npm/6b6dbc72-tmlparser-toString-0-0-1-package.lock
+50 silly lockFile 6b6dbc72-tmlparser-toString-0-0-1-package /Users/jstrimp/.npm/htmlparser-toString/0.0.1/package
+51 silly lockFile 6b6dbc72-tmlparser-toString-0-0-1-package /Users/jstrimp/.npm/htmlparser-toString/0.0.1/package
+52 verbose tar unpack /Users/jstrimp/.npm/htmlparser-toString/0.0.1/package.tgz
+53 silly lockFile 9abe0671-tmlparser-toString-0-0-1-package tar:///Users/jstrimp/.npm/htmlparser-toString/0.0.1/package
+54 verbose lock tar:///Users/jstrimp/.npm/htmlparser-toString/0.0.1/package /Users/jstrimp/.npm/9abe0671-tmlparser-toString-0-0-1-package.lock
+55 silly lockFile 9a260db1-arser-toString-0-0-1-package-tgz tar:///Users/jstrimp/.npm/htmlparser-toString/0.0.1/package.tgz
+56 verbose lock tar:///Users/jstrimp/.npm/htmlparser-toString/0.0.1/package.tgz /Users/jstrimp/.npm/9a260db1-arser-toString-0-0-1-package-tgz.lock
+57 silly gunzTarPerm modes [ '755', '644' ]
+58 silly gunzTarPerm extractEntry package.json
+59 silly gunzTarPerm extractEntry LICENSE-MIT
+60 silly gunzTarPerm extractEntry dist/index.amd.js
+61 silly gunzTarPerm extractEntry readme.md
+62 silly gunzTarPerm extractEntry src/index.js
+63 silly lockFile 9abe0671-tmlparser-toString-0-0-1-package tar:///Users/jstrimp/.npm/htmlparser-toString/0.0.1/package
+64 silly lockFile 9abe0671-tmlparser-toString-0-0-1-package tar:///Users/jstrimp/.npm/htmlparser-toString/0.0.1/package
+65 silly lockFile 9a260db1-arser-toString-0-0-1-package-tgz tar:///Users/jstrimp/.npm/htmlparser-toString/0.0.1/package.tgz
+66 silly lockFile 9a260db1-arser-toString-0-0-1-package-tgz tar:///Users/jstrimp/.npm/htmlparser-toString/0.0.1/package.tgz
+67 verbose chmod /Users/jstrimp/.npm/htmlparser-toString/0.0.1/package.tgz 644
+68 verbose chown /Users/jstrimp/.npm/htmlparser-toString/0.0.1/package.tgz [ 1203538831, 74715970 ]
+69 silly lockFile 3a52ce78- .
+70 silly lockFile 3a52ce78- .
+71 silly publish { name: 'htmlparser-toString',
+71 silly publish   version: '0.0.1',
+71 silly publish   description: 'AMD copy of htmlparser-to-html.',
+71 silly publish   homepage: 'https://github.com/jstrimpel/htmlparser-toString',
+71 silly publish   keywords: [ 'htmlparser' ],
+71 silly publish   licenses: [ { type: 'MIT', url: '/blob/master/LICENSE-MIT' } ],
+71 silly publish   repository:
+71 silly publish    { type: 'git',
+71 silly publish      url: 'https://github.com/jstrimpel/htmlparser-toString' },
+71 silly publish   bugs: { url: 'https://github.com/jstrimpel/htmlparser-toString/issues' },
+71 silly publish   main: 'dist/index.amd.js',
+71 silly publish   readme: 'Copy of [htmlparser-to-html](https://github.com/mixu/htmlparser-to-html).',
+71 silly publish   readmeFilename: 'readme.md',
+71 silly publish   _id: 'htmlparser-toString@0.0.1',
+71 silly publish   dist: { shasum: 'e42aac205affa83f6b2be40085aa9b751e4e6a3f' },
+71 silly publish   _from: '.' }
+72 verbose url raw htmlparser-toString
+73 verbose url resolving [ 'https://registry.npmjs.org/', './htmlparser-toString' ]
+74 verbose url resolved https://registry.npmjs.org/htmlparser-toString
+75 info trying registry request attempt 1 at 12:08:21
+76 http PUT https://registry.npmjs.org/htmlparser-toString
+77 http 403 https://registry.npmjs.org/htmlparser-toString
+78 error publish Failed PUT 403
+79 error Error: forbidden New packages must have all-lowercase names: htmlparser-toString
+79 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+79 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+79 error     at Request.EventEmitter.emit (events.js:98:17)
+79 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+79 error     at Request.EventEmitter.emit (events.js:117:20)
+79 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+79 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+79 error     at _stream_readable.js:895:16
+79 error     at process._tickCallback (node.js:415:13)
+80 error If you need help, you may report this *entire* log,
+80 error including the npm and node versions, at:
+80 error     <http://github.com/npm/npm/issues>
+81 error System Darwin 13.4.0
+82 error command "node" "/usr/local/bin/npm" "publish"
+83 error cwd /Users/jstrimp/github.com/jstrimpel/htmlparser-toString
+84 error node -v v0.10.5
+85 error npm -v 1.4.4
+86 verbose exit [ 1, true ]

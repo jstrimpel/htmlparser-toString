@@ -1,6 +1,6 @@
 {
-  "name": "htmlparser-toString",
-  "version": "0.0.1",
+  "name": "htmlparser-tostring",
+  "version": "0.0.2",
   "description": "AMD copy of htmlparser-to-html.",
   "homepage": "https://github.com/jstrimpel/htmlparser-toString",
   "keywords": [
