@@ -1,0 +1,23 @@
+{
+  "name": "htmlparser-toString",
+  "version": "0.0.1",
+  "description": "AMD copy of htmlparser-to-html.",
+  "homepage": "https://github.com/jstrimpel/htmlparser-toString",
+  "keywords": [
+    "htmlparser"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jstrimpel/htmlparser-toString"
+  },
+  "bugs": {
+    "url": "https://github.com/jstrimpel/htmlparser-toString/issues"
+  },
+  "main": "dist/index.amd.js"
+}
